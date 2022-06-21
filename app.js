@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 // mongodbURI
 // const mongodbURI = 'mongodb+srv://username:dNucvVKnzJ2pw9Zy@cluster0.ztnpdps.mongodb.net/?retryWrites=true&w=majority'
-const mongoConnectionString = 'mongodb+srv://username:dNucvVKnzJ2pw9Zy@cluster0.ztnpdps.mongodb.net/?retryWrites=true&w=majority'; 
+const mongoConnectionString = 'mongodb+srv://pravindevis:1otGpfhomRVVh4LV@cluster0.8fwxg.mongodb.net/?retryWrites=true&w=majority'; 
 mongodb.connect(mongoConnectionString,{
     serverSelectionTimeoutMS: 5000
 }).then(data =>{
